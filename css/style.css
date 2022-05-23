@@ -9,6 +9,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+/* roots */
+
+:root {
+    --small-margin: 0 20px;
+    --blue: #0061FF
+}
+
 /* utils */
 .container-large {
     max-width: 1800px;
@@ -16,4 +23,75 @@ body {
 
 .container-small {
     max-width: 1400px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.m-15 {
+    margin: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--blue);
+    color: #fff;
+}
+
+/* header */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
+
+    line-height: 30px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo {
+    display: block;
+    height: 30px;
+    text-align: center;
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+header ul {
+    margin-left: 30px;
+}
+
+.nav-bar li {
+    margin: var(--small-margin);
+}
+
+#inizia {
+    align-self: center;
+    padding: 2px 15px;
+    font-size: 16px;
+    text-align: center
 }
