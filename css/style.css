@@ -118,7 +118,7 @@ h1 {
     text-align: left;
 }
 
-#jumbo {
+#jumbo-img {
     float: right;
     display: inline-block;
     height: 450px;
@@ -139,4 +139,10 @@ h1 {
 .fa-arrow-down {
     font-size: 3rem;
     margin: 60px 0 30px 0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
