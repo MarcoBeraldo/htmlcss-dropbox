@@ -24,10 +24,17 @@ body {
 
 .container-small {
     max-width: 1000px;
+    margin: 0 auto;
 }
 
 .d-flex {
     display: flex;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .space-between {
@@ -48,6 +55,10 @@ body {
     color: #fff;
 }
 
+.border-gray {
+    border: 1px solid lightgray;
+}
+
 /* header */
 
 header {
@@ -58,32 +69,35 @@ header {
     right: 0;
 
     padding: 20px;
+    vertical-align: middle;
+
 
     line-height: 30px;
-    text-align: center;
+    align-items: center;
+    z-index: 1;
+    background-color: #fff;
 }
 
 header a {
+    display: inline-block;
     text-decoration: none;
     color: #000;
+
 }
 
 #logo {
     display: block;
-    height: 30px;
+    height: 70px;
     text-align: center;
 
 }
 
 
 
-ul {
-    list-style-type: none;
-    display: inline-block;
-
-}
-
 header ul {
+    list-style-type: none;
+    align-items: center;
+
     margin-left: 30px;
 }
 
@@ -95,7 +109,8 @@ header ul {
     align-self: center;
     padding: 2px 15px;
     font-size: 16px;
-    text-align: center
+    text-align: center;
+
 }
 
 /* main */
@@ -114,7 +129,7 @@ main {
 h1 {
     font-size: 4.5rem;
     font-weight: 900;
-    margin: 50px 0;
+    margin: 30px 0;
     text-align: left;
 }
 
@@ -127,22 +142,164 @@ h1 {
 
 .jumbo-text {
     text-align: left;
-    width: 30%;
+    width: 35%;
 }
 
 .jumbo-btn {
     text-decoration: none;
     padding: 10px 15px;
     margin: 30px 0;
+    width: 250px;
+    text-align: center;
 }
 
 .fa-arrow-down {
     font-size: 3rem;
     margin: 60px 0 30px 0;
+    color: #000
 }
 
 .clearfix::after {
     content: "";
     clear: both;
     display: table;
+}
+
+/*  purchase plans section */
+
+.purchase-plans {
+    margin-top: 70px;
+    font-size: 0.9rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.circle {
+    display: inline-block;
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    margin-right: 5px;
+    line-height: 1.5rem;
+    vertical-align: middle
+}
+
+#selected {
+    border: 4px solid var(--blue);
+}
+
+#not-selected {
+    border: 2px solid lightgray;
+    margin-left: 50px;
+}
+
+.text {
+    line-height: 1.5rem;
+    vertical-align: middle;
+    margin-bottom: 30px;
+}
+
+/* cards */
+
+.card {
+    width: 30%;
+    border: 1px solid lightgray;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+.table-title {
+    display: inline-block;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.table-body {
+    padding: 20px;
+
+}
+
+h4 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.fa-ul {
+    margin: 60px 0 30px 0;
+}
+
+.fa-ul li {
+    margin: 15px
+}
+
+.acquista {
+    color: var(--blue);
+}
+
+hr {
+    width: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+h6 {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+}
+
+.tick-list {
+    list-style-type: none;
+}
+
+.fa-check {
+    color: var(--blue);
+}
+
+/* last horizontal card */
+
+.horizontal-card {
+    margin-top: 30px;
+}
+
+.horizontal-card-description {
+    flex-basis: 70%;
+    padding: 0 20px
+}
+
+.horizontal-card-btn {
+    flex-basis: 30%;
+    justify-content: center;
+
+}
+
+.horizontal-card-btn .btn {
+    justify-content: center;
+    height: 40px;
+}
+
+.horizontal-card-description h4 {
+    margin-top: 30px;
+}
+
+.horizontal-card-description span {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 50px
+}
+
+.horizontal-card-description p {
+    margin-bottom: 30px;
 }
