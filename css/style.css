@@ -1,0 +1,19 @@
+/* generics */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* utils */
+.container-large {
+    max-width: 1800px;
+}
+
+.container-small {
+    max-width: 1400px;
+}
