@@ -17,12 +17,19 @@ body {
     --designit-1: #A2D39B;
     --designit-2: #D1E9CD;
     --arizona: #61082B;
+    --arizona-2: #8E2D50;
     --florida: #0093CE;
+    --florida-2: #4EAED8;
     --topps: #FF1C1C;
+    --topps-2: #E8655B;
     --wbr: #D5001F;
+    --wbr-2: #DD5E67;
     --hearst: #B4D0E7;
+    --hearst-2: #E1EEF9;
     --lonely: #0D2481;
+    --lonely-2: #3C5BAA;
     --clear: #FFD830;
+    --clear-2: #F9E8B2;
     --square: #F5F5F5;
 
 }
@@ -427,6 +434,10 @@ h6 {
 
 #designit {
     background-color: var(--designit-1);
+
+}
+
+#designit:hover {
     border: 15px solid var(--designit-2)
 }
 
@@ -434,32 +445,64 @@ h6 {
     background-color: var(--arizona);
 }
 
+#arizona:hover {
+    border: 15px solid var(--arizona-2)
+}
+
 #florida {
     background-color: var(--florida);
+}
+
+#florida:hover {
+    border: 15px solid var(--florida-2)
 }
 
 #topps {
     background-color: var(--topps);
 }
 
+#topps:hover {
+    border: 15px solid var(--topps-2)
+}
+
 #square {
     background-color: var(--square);
+}
+
+#square:hover {
+    border: 15px solid var(--square-2)
 }
 
 #wbr {
     background-color: var(--wbr);
 }
 
+#wbr:hover {
+    border: 15px solid var(--wbr-2)
+}
+
 #hearst {
     background-color: var(--hearst);
+}
+
+#hearst:hover {
+    border: 15px solid var(--hearst-2)
 }
 
 #lonely {
     background-color: var(--lonely);
 }
 
+#lonely:hover {
+    border: 15px solid var(--lonely-2)
+}
+
 #clear {
     background-color: var(--clear);
+}
+
+#clear:hover {
+    border: 15px solid var(--clear-2)
 }
 
 .sponsor-card img {
@@ -597,6 +640,11 @@ footer h3 {
 footer ul li {
     margin-bottom: 20px;
     font-size: 0.9rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .lang {
