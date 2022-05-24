@@ -13,7 +13,18 @@ body {
 
 :root {
     --small-margin: 0 20px;
-    --blue: #0061FF
+    --blue: #0061FF;
+    --designit-1: #A2D39B;
+    --designit-2: #D1E9CD;
+    --arizona: #61082B;
+    --florida: #0093CE;
+    --topps: #FF1C1C;
+    --wbr: #D5001F;
+    --hearst: #B4D0E7;
+    --lonely: #0D2481;
+    --clear: #FFD830;
+    --square: #F5F5F5;
+
 }
 
 /* utils */
@@ -76,6 +87,8 @@ header {
     align-items: center;
     z-index: 1;
     background-color: #fff;
+
+    box-shadow: 1px 3px 2px #dedede;
 }
 
 header a {
@@ -249,7 +262,7 @@ table {
     color: var(--blue);
 }
 
-hr {
+.table-body hr {
     width: 60px;
     margin-top: 50px;
     margin-bottom: 50px
@@ -388,4 +401,122 @@ h6 {
 
 .business-section-footer a {
     color: var(--blue)
+}
+
+/* sponsor section */
+
+#sponsor {
+    margin-top: 150px;
+    height: 640px;
+
+}
+
+.sponsor-square {
+    width: calc(100% / 3);
+    height: 640px;
+}
+
+.sponsor-card {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+#designit {
+    background-color: var(--designit-1);
+    border: 15px solid var(--designit-2)
+}
+
+#arizona {
+    background-color: var(--arizona);
+}
+
+#florida {
+    background-color: var(--florida);
+}
+
+#topps {
+    background-color: var(--topps);
+}
+
+#square {
+    background-color: var(--square);
+}
+
+#wbr {
+    background-color: var(--wbr);
+}
+
+#hearst {
+    background-color: var(--hearst);
+}
+
+#lonely {
+    background-color: var(--lonely);
+}
+
+#clear {
+    background-color: var(--clear);
+}
+
+.sponsor-card img {
+    display: block;
+    filter: invert(1);
+    max-width: calc(100% - 60px);
+}
+
+#square {
+    padding: 60px;
+    position: relative;
+
+}
+
+#square img {
+    ;
+    top: 0px;
+    left: 0px;
+    max-height: 100px;
+}
+
+
+
+#square .hr {
+    color: gray;
+    display: block;
+    width: 120px;
+    margin: 40px 0;
+    border-bottom: 1px solid #D0D0D3;
+}
+
+#square p {
+    margin-bottom: 40px
+}
+
+.free-trial {
+    padding: 150px;
+    background-color: #B4D0E7;
+}
+
+.free-trial h2 {
+    color: #61082B;
+    margin: 0;
+    width: 50%;
+}
+
+.free-trial-btn {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    line-height: 100%;
+    text-align: right;
+    padding: 30px
+}
+
+.free-trial-btn a {
+    background-color: #fff;
+    padding: 10px 50px;
+    text-decoration: none;
+
 }
