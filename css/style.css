@@ -227,7 +227,7 @@ table {
 
 }
 
-h4 {
+.table-body h4 {
     font-size: 1.5rem;
     margin-top: 30px;
     margin-bottom: 10px;
@@ -302,4 +302,82 @@ h6 {
 
 .horizontal-card-description p {
     margin-bottom: 30px;
+}
+
+/* partner section */
+
+#partner-section {
+    margin: 150px 0;
+}
+
+.partner-img {
+    max-width: calc(100% / 3 * 2)
+}
+
+.partner-text {
+    max-width: calc(100% / 3)
+}
+
+#partner-img {
+    max-width: 100%;
+    height: 550px
+}
+
+.partner-text {
+    padding: 20px;
+}
+
+.partner-text h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.partner-text p {
+    font-size: 0.95rem;
+    margin-top: 20px;
+}
+
+#partner-section .btn {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+/* dropbox business section */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.col {
+    width: calc(100% / 3);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.g-20 {
+    margin: -20px 0;
+}
+
+.business-card {
+    padding: 20px;
+}
+
+.business-card img {
+    max-width: 100%;
+}
+
+.business-card h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.business-card p {
+    margin-top: 30px;
 }
