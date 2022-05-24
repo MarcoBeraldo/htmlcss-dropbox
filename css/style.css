@@ -545,19 +545,32 @@ h6 {
     margin-top: 30px;
 }
 
-.faq-box .fa-angle-down {
+.faq-box .fa-angle-down,
+.faq-box .fa-angle-up {
     margin-top: 30px;
     margin-right: 30px;
 }
 
+.faq-box .fa-angle-up {
+    display: none;
+}
+
 .hover {
     border-bottom: 1px solid grey;
-    padding-bottom: 30px
+    padding-bottom: 30px;
 }
 
 .hover:hover p {
     display: inline-block;
     z-index: 2;
+}
+
+.hover:hover .fa-angle-down {
+    display: none;
+}
+
+.hover:hover .fa-angle-up {
+    display: block;
 }
 
 /* footer */
