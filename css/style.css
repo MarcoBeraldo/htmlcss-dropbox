@@ -381,3 +381,11 @@ h6 {
 .business-card p {
     margin-top: 30px;
 }
+
+.business-section-footer {
+    margin-top: 150px;
+}
+
+.business-section-footer a {
+    color: var(--blue)
+}
