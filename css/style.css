@@ -31,7 +31,6 @@ body {
     --clear: #FFD830;
     --clear-2: #F9E8B2;
     --square: #F5F5F5;
-
 }
 
 /* utils */
@@ -96,7 +95,7 @@ header {
     z-index: 1;
     background-color: #fff;
 
-    box-shadow: 1px 3px 2px #dedede;
+    box-shadow: 1px 1px 1px #dedede;
 }
 
 header a {
@@ -111,11 +110,8 @@ header a {
 }
 
 header li:hover {
-    border-bottom: 2px solid var(--blue)
+    border-bottom: 2px solid var(--blue);
 }
-
-
-
 
 header ul {
     list-style-type: none;
@@ -127,11 +123,13 @@ header ul {
 }
 
 #inizia {
-    align-self: center;
+    color: #fff;
     padding: 2px 15px;
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
-
+    height: 30px;
+    align-self: center;
+    width: auto;
 }
 
 /* main */
@@ -415,8 +413,6 @@ h6 {
 
 #sponsor {
     margin-top: 150px;
-
-
 }
 
 .sponsor-square {
@@ -434,7 +430,6 @@ h6 {
 
 #designit {
     background-color: var(--designit-1);
-
 }
 
 #designit:hover {
@@ -517,13 +512,10 @@ h6 {
 }
 
 #square img {
-    ;
     top: 0px;
     left: 0px;
     max-height: 100px;
 }
-
-
 
 #square .hr {
     color: gray;
@@ -541,8 +533,6 @@ h6 {
     padding: 150px;
     background-color: #B4D0E7;
     height: 410px;
-
-
 }
 
 .free-trial h2 {
@@ -622,9 +612,6 @@ footer {
     background-color: #000;
     color: #fff;
     padding-top: 100px;
-
-
-
 }
 
 footer ul {
