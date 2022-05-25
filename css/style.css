@@ -91,7 +91,6 @@ header {
     right: 0;
 
     padding: 20px;
-    15px;
 
     z-index: 1;
     background-color: #fff;
@@ -263,6 +262,11 @@ table {
     font-weight: bold;
 }
 
+.jumbo-btn>a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .fa-ul {
     margin: 60px 0 30px 0;
 }
@@ -392,7 +396,6 @@ h6 {
 
 .g-20 {
     margin: -20px;
-    0;
 }
 
 .business-card {
