@@ -164,6 +164,7 @@ h1 {
     padding-right: 50px;
 }
 
+
 .jumbo-text {
     text-align: left;
     width: 35%;
@@ -427,8 +428,8 @@ h6 {
 }
 
 .sponsor-square {
-    width: calc(100% / 3);
-    height: 640px;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 .sponsor-card {
@@ -581,7 +582,6 @@ h6 {
 .faq-box p {
     padding: 30px 0;
     display: none;
-
 }
 
 .faq-box h4 {
