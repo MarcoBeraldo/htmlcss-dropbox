@@ -609,7 +609,6 @@ h6 {
 
 .hover:hover p {
     display: inline-block;
-    z-index: 2;
 }
 
 .hover:hover .fa-angle-down {
